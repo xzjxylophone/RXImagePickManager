@@ -1,0 +1,2 @@
+# RXImagePickManagerDelegate
+Add
