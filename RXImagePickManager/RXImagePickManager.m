@@ -84,7 +84,7 @@ const NSString *kRXImagePickManager_AllowEditing_AttributeName = @"kRXImagePickM
     if (buttonIndex == actionSheet.cancelButtonIndex) {
         return;
     }
-    UIImagePickerControllerSourceType sourceType;
+    UIImagePickerControllerSourceType sourceType = UIImagePickerControllerSourceTypeCamera;
     UIViewController *vc = [self.delegate viewControllerInRXImagePickManager:self];
 
     switch (buttonIndex) {
