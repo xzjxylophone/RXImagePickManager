@@ -27,6 +27,10 @@ extern const NSString *kRXImagePickManager_AllowEditing_AttributeName;
 
 - (void)rxImagePickManager:(RXImagePickManager *)rxImagePickManager selectedImage:(UIImage *)selectedImage;
 
+
+// custom select From album
+- (void)customAlbumActionInRXImagePickManager:(RXImagePickManager *)rxImagePickManager;
+
 @end
 
 

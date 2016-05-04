@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name     = "RXImagePickManager"
-  s.version  = "0.2"
+  s.version  = "0.3"
   s.license  = "MIT"
   s.summary  = "RXImagePickManager is a normal RXImagePickManager"
   s.homepage = "https://github.com/xzjxylophone/RXImagePickManager"

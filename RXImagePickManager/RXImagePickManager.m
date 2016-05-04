@@ -95,6 +95,12 @@ const NSString *kRXImagePickManager_AllowEditing_AttributeName = @"kRXImagePickM
             break;
         case 1: // 从相册中选择
         {
+            // 自定义的从相册选择
+            if ([self.delegate respondsToSelector:@selector(customAlbumActionInRXImagePickManager:)]) {
+                [self.delegate customAlbumActionInRXImagePickManager:self];
+                return;
+            }
+            
             sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
         }
             break;
